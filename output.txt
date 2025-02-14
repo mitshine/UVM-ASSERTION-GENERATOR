@@ -1,0 +1,71 @@
+C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen2>pyinstaller --onefile -w assertion_generator_v2.py --windowed --
+icon icon.png
+350 INFO: PyInstaller: 6.11.1, contrib hooks: 2025.1
+350 INFO: Python: 3.12.5
+377 INFO: Platform: Windows-11-10.0.26100-SP0
+377 INFO: Python environment: C:\Users\Admin\AppData\Local\Programs\Python\Python312
+379 INFO: wrote C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen2\assertion_generator_v2.spec
+388 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\DLLs',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\win32',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Pythonwin',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\setuptools\\_vendor',
+ 'C:\\Users\\Admin\\Downloads\\python_exercises\\uvm\\uiux\\gen2']
+pygame 2.6.1 (SDL 2.28.4, Python 3.12.5)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+2995 INFO: checking Analysis
+2995 INFO: Building Analysis because Analysis-00.toc is non existent
+2995 INFO: Running Analysis Analysis-00.toc
+2995 INFO: Target bytecode optimization level: 0
+2996 INFO: Initializing module dependency graph...
+2997 INFO: Initializing module graph hook caches...
+3041 INFO: Analyzing base_library.zip ...
+4372 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+4515 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+6815 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+10598 INFO: Caching module dependency graph...
+10697 INFO: Looking for Python shared library...
+10702 INFO: Using Python shared library: C:\Users\Admin\AppData\Local\Programs\Python\Python312\python312.dll
+10702 INFO: Analyzing C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen2\assertion_generator_v2.py
+10707 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+10710 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+10920 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+11002 INFO: Processing module hooks (post-graph stage)...
+11007 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+11017 INFO: Performing binary vs. data reclassification (925 entries)
+19309 INFO: Looking for ctypes DLLs
+19315 INFO: Analyzing run-time hooks ...
+19317 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+19330 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+19365 INFO: Looking for dynamic libraries
+19502 INFO: Extra DLL search directories (AddDllDirectory): []
+19503 INFO: Extra DLL search directories (PATH): []
+19669 INFO: Warnings written to C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen2\build\assertion_generator_v2\warn-assertion_generator_v2.txt
+19685 INFO: Graph cross-reference written to C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen2\build\assertion_generator_v2\xref-assertion_generator_v2.html
+19769 INFO: checking PYZ
+19769 INFO: Building PYZ because PYZ-00.toc is non existent
+19769 INFO: Building PYZ (ZlibArchive) C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen2\build\assertion_generator_v2\PYZ-00.pyz
+20078 INFO: Building PYZ (ZlibArchive) C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen2\build\assertion_generator_v2\PYZ-00.pyz completed successfully.
+20115 INFO: checking PKG
+20115 INFO: Building PKG because PKG-00.toc is non existent
+20115 INFO: Building PKG (CArchive) assertion_generator_v2.pkg
+23037 INFO: Building PKG (CArchive) assertion_generator_v2.pkg completed successfully.
+23054 INFO: Bootloader C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+23055 INFO: checking EXE
+23055 INFO: Building EXE because EXE-00.toc is non existent
+23055 INFO: Building EXE from EXE-00.toc
+23055 INFO: Copying bootloader EXE to C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen2\dist\assertion_generator_v2.exe
+23147 INFO: Copying icon to EXE
+23310 INFO: Copying 0 resources to EXE
+23310 INFO: Embedding manifest in EXE
+23356 INFO: Appending PKG archive to EXE
+27900 INFO: Fixing EXE headers
+39177 INFO: Building EXE from EXE-00.toc completed successfully.
+
+C:\Users\Admin\Downloads\python_exercises\uvm\uiux\gen2>
